@@ -63,6 +63,3 @@ class Popularity(models.Model):
 
     def __str__(self):
         return self.movieid.movieid + '|' + str(self.weight)
-from django.db import models
-
-# Create your models here.
